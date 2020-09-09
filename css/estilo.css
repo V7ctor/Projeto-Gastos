@@ -1,0 +1,120 @@
+body {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+h2 {
+text-align: center;    
+}
+
+.group-form {
+    padding: 20px;
+}
+
+.group-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.group-form input:focus{
+    outline: none;
+}
+
+.button-group {
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.button-group input{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: green;
+    width: 200px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button-group input:hover {
+    background: #045304;
+}
+
+.container-table,
+.form-conta {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container-table table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container-table table{
+    text-align: center;
+}
+
+.container-table thead tr th{
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+    background-color: #252038;
+    color: white;
+    font-weight: 300;
+}
+
+.container-table tbody tr td{
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+    width: 140px;
+}
+
+.container-table tfoot tr td{
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #252038;
+    color: white;
+}
+
+
+.container-table table thead{
+    background: black;  
+    padding: 0;
+    margin: 0;
+}
+
+.delete-button {
+    border: none;
+    background: #ba2525;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #8b1212;
+}
+
+.has-error input {
+    border: 1px solid red;
+}
+
+input:disabled {
+    background: #a7a2a2;
+}
+
+.container-table tbody tr:nth-child(odd) {
+	background-color:#ffffff;
+}
+
+.container-table tbody tr:nth-child(even) {
+	background-color:#dfe6f0;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: #323232;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea:focus, input:focus {
+    outline: none; 
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #4b4d8e;
+}
+
+.container-login {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-login form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border-bottom: 2px solid #323232;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 2px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558b;
+    cursor: pointer;
+    transition: background-color 0.5s linear;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b223c;
+}
+
+.register-container p{
+    margin-bottom: 10px;
+}
+
+

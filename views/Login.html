@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Estrutura Base</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Victor">
+        <meta name="description" content="Primeiros Passos em HTML">
+        <meta name="keywords" content="HTML5, Curso, Informática, Tecnologia">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+        <div class="container-login">
+            <h1>Login</h1>
+            <form>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu email aqui" autocomplete="off" autofocus>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Insira sua senha aqui">
+                <a href="#" id="forgot-pass">Esqueceu sua senha ?</a>
+                <input type="submit" class="btn" value="Entrar">
+            </form>
+            <div class="register-container">
+                <p>ainda não tem uma conta ?</p>
+                <a href="#">registrar</a>
+            </div>
+        </div>
+        <script type="application/javascript">
+            let button = document.querySelector('.btn');
+            
+            button.addEventListener('click', () => {
+                location.href = '../Index.html';               
+            });
+        </script>
+    </body>
+</html>
